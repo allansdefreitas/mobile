@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.edu.ifpe.tads.pdm.togglebutton.MainActivity">
+
+    <TextView
+        android:id="@+id/textoResultadoId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_below="@+id/toggleButtonId"
+        android:layout_marginTop="45dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="@dimen/titulo" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="Toggle Button"
+        android:textColor="@android:color/background_dark"
+        android:textSize="@dimen/titulo" />
+
+    <ToggleButton
+        android:id="@+id/toggleButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:text="ToggleButton"
+        android:textOff="@string/toggleButtonOff"
+        android:textOn="@string/ToggleButtonOn" />
+
+</RelativeLayout>

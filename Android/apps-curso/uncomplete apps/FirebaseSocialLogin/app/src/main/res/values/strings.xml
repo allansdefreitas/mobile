@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FirebaseSocialLogin</string>
+    <string name="facebook_applicaton_id" translatable="false">202457683643588</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context="br.edu.ifpe.tads.pdm.app5_atmconsultoria.EmpresaActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/detalhe_empresa" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="19dp"
+        android:layout_toEndOf="@+id/imageView2"
+        android:text="@string/empresa_detalhes"
+        android:textSize="@dimen/titulo_activity" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="320dp"
+        android:layout_height="420dp"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="19dp"
+        android:background="?attr/colorButtonNormal"
+        android:padding="@dimen/padding_scroll_view">
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin ullamcorper lorem, in gravida nulla imperdiet ac. Nunc quam tortor, finibus sed egestas non, suscipit a est. Phasellus vitae gravida eros. Pellentesque mollis enim massa, in egestas risus euismod ut. Fusce vehicula neque sit amet imperdiet semper. Sed malesuada velit hendrerit suscipit convallis. Donec vulputate quis magna eget pharetra. Praesent hendrerit, urna ut sodales hendrerit, ante neque pretium dui, sodales fermentum odio nisi at tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quam turpis, consectetur quis ligula vitae, euismod placerat velit. Nunc lorem enim, imperdiet ac nibh vel, dictum aliquam lorem. Nam id dui neque. Ut in ex interdum, mollis lorem sit amet, pulvinar nisl. Nam tempus at dolor iaculis finibus. Cras vehicula tortor at neque luctus, at varius nunc dictum. Nunc pulvinar maximus pretium.  Phasellus turpis dui, malesuada ac sagittis at, eleifend ac magna. Cras non nunc in lacus pellentesque eleifend vel sed tortor. Aliquam erat volutpat. Cras sed nibh ac velit viverra pellentesque. Nunc nunc elit, faucibus id ipsum sed, vulputate venenatis sapien. Morbi et luctus lectus. In ac tellus vitae metus tristique faucibus. Aenean nulla neque, tincidunt vitae dignissim sit amet, tempus ut arcu. Sed gravida volutpat ligula, convallis hendrerit augue placerat vitae. Ut pharetra egestas ligula, vel pretium diam lacinia at. Nam rhoncus erat eros, sit amet auctor turpis accumsan sollicitudin.  "
+            android:textSize="@dimen/conteudo_activity" />
+    </ScrollView>
+</RelativeLayout>

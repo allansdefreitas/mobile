@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titulo_activity">25sp</dimen>
+    <dimen name="conteudo_activity">17sp</dimen>
+    <dimen name="padding_scroll_view">10dp</dimen>
+</resources>

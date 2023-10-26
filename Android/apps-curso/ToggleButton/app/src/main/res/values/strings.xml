@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ToggleButton</string>
+    <string name="toggleButtonOff">Desligado</string>
+    <string name="ToggleButtonOn">Ligado</string>
+</resources>

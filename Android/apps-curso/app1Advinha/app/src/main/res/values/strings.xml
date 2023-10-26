@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">app1-Advinha</string>
+    <string name="escolha_numero">Escolha um número entre 0 e 9</string>
+    <string name="botao_jogar">Jogar</string>
+    <string name="texto_numero">Nenhum número</string>
+</resources>

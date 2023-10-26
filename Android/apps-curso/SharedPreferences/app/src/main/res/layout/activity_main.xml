@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bcd8a2"
+    tools:context="br.edu.ifpe.tads.pdm.sharedpreferences.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:text="Qual o seu nome?"
+        android:textColor="@android:color/background_dark"
+        android:textSize="@dimen/titulo_activity" />
+
+    <EditText
+        android:id="@+id/textoNomeId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/botaoSalvarId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textoNomeId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:text="Salvar" />
+
+    <TextView
+        android:id="@+id/textoSaudacaoId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/botaoSalvarId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="@dimen/titulo_activity" />
+</RelativeLayout>

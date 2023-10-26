@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">app10-PreferenciasCor</string>
+    <string name="titulo_activity">Choose your favorite color</string>
+    <string name="azul_cor">Azul</string>
+    <string name="cor_laranja">Laranja</string>
+    <string name="cor_verde">Verde</string>
+    <string name="botao_salvar">Salvar</string>
+</resources>

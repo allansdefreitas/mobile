@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutId"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.edu.ifpe.tads.pdm.app10_preferenciascor.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/titulo_activity"
+        android:textColor="@android:color/background_dark"
+        android:textSize="@dimen/titulo_activity" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupId"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:background="@android:color/background_light">
+
+        <RadioButton
+            android:id="@+id/azulId"
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/azul_cor" />
+
+        <RadioButton
+            android:id="@+id/laranjaId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cor_laranja" />
+
+        <RadioButton
+            android:id="@+id/verdeId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cor_verde" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/botaoSalvarId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioGroupId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:text="@string/botao_salvar" />
+
+</RelativeLayout>

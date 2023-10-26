@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding"
+    tools:context="br.edu.ifpe.tads.pdm.radiobutton.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:text="@string/comida_preferida"
+        android:textColor="@android:color/background_dark"
+        android:textSize="@dimen/size_titulo" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupId"
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+
+        <RadioButton
+            android:id="@+id/hamburguerId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hambúrguer" />
+
+        <RadioButton
+            android:id="@+id/empadaoId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Empadão" />
+
+        <RadioButton
+            android:id="@+id/cuscuzId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:text="Cuscuz Recheado"
+            android:textColorHighlight="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textColorLink="@color/colorPrimaryDark" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/botaoEscolherId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Escolher" />
+
+    <TextView
+        android:id="@+id/textoResultadoId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/background_dark"
+        android:textSize="@dimen/texto_corpo" />
+</LinearLayout>
